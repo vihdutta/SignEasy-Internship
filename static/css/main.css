@@ -1,0 +1,43 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    text-align: center;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+}
+
+h5 {
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+input {
+    border: none;
+    background-color: rgb(113, 181, 237);
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input:hover{
+    background-color: rgb(76, 120, 157);
+}
+
+input:focus{
+    background-color: rgb(178, 220, 255);
+}
+
+.navbar {
+    padding: 10px;
+    background-color: rgb(113, 181, 237);
+    text-align: center;
+}
+
+.padding {
+    padding: 5%
+}

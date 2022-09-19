@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/static/css/main.css">
+    </head>
+    <body>
+            <div class="navbar">
+                <img src="/static/assets/signeasy_logo.png" width="500" height="175">
+                <h1>API Interface</h1>
+            </div>              
+            <form method="POST">
+                <br><br>
+                <h5>Inputs</h5>
+                <label for="original_id">Original ID: </label>
+                <input type="text" id="original_id" name="original_id">
+                <label for="signed_id">Signed ID: </label>
+                <input type="text" id="signed_id" name="signed_id">
+                <br>
+                <label for="pending_file_id">Pending File ID: </label>
+                <input type="text" id="pending_file_id" name="pending_file_id">
+                <label for="template_id">Template ID: </label>
+                <input type="text" id="template_id" name="template_id">
+                <br>
+                <label for="signed_file_id">Signed File ID: </label>
+                <input type="text" id="signed_file_id" name="signed_file_id">
+                <label for="rs_id">Request Signature ID: </label>
+                <input type="text" id="rs_id" name="rs_id">
+                <br><br><br><br>
+
+
+                <h5>User</h5>
+                <input type="submit" name="button" value="Fetch User Details">
+                <h5>Originals</h5>
+                <input type="submit" name="button" value="List all originals">
+                <input type="submit" name="button" value="Fetch details of an original">
+                <input type="submit" name="button" value="Download an original document">
+                <input type="submit" name="button" value="Delete an original document">
+                <h5>Embedded Self Sign</h5>
+                <input type="submit" name="button" value="Fetch all self signed files">
+                <input type="submit" name="button" value="Fetch details of self signed document">
+                <input type="submit" name="button" value="Download self signed document">
+                <input type="submit" name="button" value="Download certificate of self signed document">
+                <input type="submit" name="button" value="Delete self signed document">
+                <h5>Embedded Sending URL for Request Signatures</h5>
+                <input type="submit" name="button" value="Fetch Pending Embedded RS">
+                <input type="submit" name="button" value="Fetch Embedded RS details">
+                <input type="submit" name="button" value="Download Embedded RS pending file">
+                <input type="submit" name="button" value="Remind Signers of Embedded RS">
+                <input type="submit" name="button" value="Cancel Embedded RS">
+                <h5>Completed Documents</h5>
+                <input type="submit" name="button" value="Fetch Signed Embedded RS">
+                <input type="submit" name="button" value="Fetch Signed document details">
+                <input type="submit" name="button" value="Download Signed document">
+                <input type="submit" name="button" value="Download Signed document certificate">
+                <input type="submit" name="button" value="Delete Signed document">
+                <h5>Envelope</h5>
+                <input type="submit" name="button" value="List envelope RS">
+                <input type="submit" name="button" value="Fetch envelope RS details">
+                <input type="submit" name="button" value="Download pending envelope RS document">
+                <input type="submit" name="button" value="Download envelope RS document as zip">
+                <input type="submit" name="button" value="Remind signers of envelope RS">
+                <input type="submit" name="button" value="Cancel an envelope RS document">
+                <input type="submit" name="button" value="Retrieve Signed File details using pending ID">
+                <h5>Signed</h5>
+                <input type="submit" name="button" value="List envelope signed documents">
+                <input type="submit" name="button" value="Details of envelope signed document">
+                <input type="submit" name="button" value="Download envelope signed documents as zip">
+                <input type="submit" name="button" value="Download certificate envelope signed document">
+                <input type="submit" name="button" value="Download envelope signed documents as merged PDF">
+                <input type="submit" name="button" value="Download envelope signed document individually">
+                <input type="submit" name="button" value="Delete envelope signed document">
+                <h5>Templates</h5>
+                <input type="submit" name="button" value="List templates">
+                <input type="submit" name="button" value="Fetch template details">
+                <input type="submit" name="button" value="Delete template details">
+                <h5>Completed Documents</h5>
+                <input type="submit" name="button" value="Fetch details of signed file">
+                <input type="submit" name="button" value="Download signed file">
+                <input type="submit" name="button" value="Download certificate of signed file">
+                <input type="submit" name="button" value="Delete signed file">
+                <h5>Request Signature Without Markers</h5>
+                <input type="submit" name="button" value="List Request Signature without markers">
+                <input type="submit" name="button" value="Fetch Request Signature without markers details">
+                <input type="submit" name="button" value="Download Request Signature without markers">
+                <input type="submit" name="button" value="Remind Request Signature without markers">
+                <input type="submit" name="button" value="Cancel Request Signature without markers">
+                <h5>Completed Documents</h5>
+                <input type="submit" name="button" value="List Signed documents">
+                <input type="submit" name="button" value="Fetch details of Signed document">
+                <input type="submit" name="button" value="Download Signed document pdf">
+                <input type="submit" name="button" value="Download Signed document certificate">
+                <input type="submit" name="button" value="Delete Signed document">
+                <br><br><br><br>
+                
+            </div>
+            </form>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
